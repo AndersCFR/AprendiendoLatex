@@ -1,0 +1,90 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Comentarios %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Comentario de una línea %%%%%
+% 1. El tipo de comentario más usado es Article
+% 2. Los comandos comienzan con \
+% 3. Todo documento inicia con documentclass
+% Comentario de varias líneas %%%%%
+
+%%%%%%%%%% Caracteres Especiales %%%%%%%%%%%%%%%%%
+%%%  % para comentarios
+%%%  ` comilla simple produce ` 
+%%% pero `` produce " y para cerrar '' y obtenemos " "
+%%%  # argumentos de entrada
+%%%  & separador de tabulaciones
+%%%  $ matemática en línea
+%%% si necesitamos escribir cualquiera de los caracteres especiales
+%%% anteriormente mencionadas debemos anteponer el \
+%%% Tener muy en cuenta porque estos suelen romper 
+%%% el documento
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Espaciado: si utilizo muhcos espacios solo se reconoce como uno
+%%% El número de Enters es lo mismo, solo usar uno
+%%% Esta característica se denomina ifenación
+
+%%% superíndices y subíndices
+%%% Usamos ^ para superíndices
+%%% _ para subíndices
+%%% podemos usar {} para super-sub índices grandes
+
+%%% Ambientes: Espacios de trabajo dentro de nuestro documento
+%%% denotados por el begin y end
+%%% Plantillas suelen tener dos tipos de docs: .sty (estilo) y .tex
+
+\documentclass{article}
+\usepackage[utf8]{inputenc} %para caracteres en español%
+\usepackage[spanish]{babel} %para correcciones en español%
+\begin{document}
+    Primer texto:
+    El principal grupo en ese momento correspondía al que en ese momento correspondía
+    al que desde los años setenta fue ``bautizado'' como grupo Sudamérica, y que algunos
+    llamaban el Sindicato Antioqueño y otros el Grupo Empresarial Antioqueño, con unos activos
+    equivalentes al 15.7\% del PIB, unos \$11.500 millones de dólares estadounidenses cuando en
+    los años setenta ocupaba el cuarto puesto, con activos equivalentes al 7.3\% del PIB; es decir
+    más que duplicó su peso relativo.
+
+    Diferencia del uso de matemática en línea:
+
+    Sean tres enteros tales que c=a-b+1
+
+    Sean tres enteros tales que $c=a-b+1$
+    Manejo de índices:
+    $a_n = a_{n - 1} + a_{n - 2}$
+
+    $f(x) = e^{ax + b} - c$
+
+    Letras Griegas:
+
+    $P(z)=\alpha+\lambda(z - \alpha)^{n}$
+
+    Integrales:
+
+    $\int x$
+
+    $\int x \,dx$
+
+    $\int_a x \,dx$
+
+    $\int_{H(s)} x \,dx$
+
+    $\int_{a}^{b} x^{2x} \,dx $
+
+    Derivada
+
+    $f' f'' f'''$
+
+    Poquito de funciones trigonométricas
+
+    $\sen x + \ln y +  \cosh z$
+
+    %%% Ejemplo de ambiente para itemsize%%%
+    Ejemplo de lista de items
+    \begin{itemize}
+        \item Python
+        \item Java
+        \item R
+        \item TF
+        \item PyTorch
+    \end{itemize}
+
+\end{document}
