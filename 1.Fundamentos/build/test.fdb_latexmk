@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1635447322 "c:/Users/ander/Desktop/AprendiendoLatex/1.Fundamentos/test.tex" "build/test.pdf" "test" 1635447324
+["pdflatex"] 1635447322 "c:/Users/ander/Desktop/AprendiendoLatex/1.Fundamentos/test.tex" "build/test.pdf" "test" 1635447475
   "C:/Users/ander/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1635446490 9726368 5a10e9bbe334ea583ac07cdd27311a77 ""
   "C:/Users/ander/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1635446594 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/ander/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1233951848 1120 1e8878807317373affa7f7bba4cf2f6a ""
@@ -209,9 +209,9 @@
   "C:/Users/ander/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1602241898 2275 d29aca6fd67823551cb07584e3681d5d ""
   "C:/Users/ander/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1602241898 20688 beaddf14d96104d4bf016523be5395c5 ""
   "build/test.aux" 1635447324 67 d1f1d04f1f825549314e4f02ae5806bb "pdflatex"
-  "c:/Users/ander/Desktop/AprendiendoLatex/1.Fundamentos/test.tex" 1635447321 3247 55684d0b4c1b9a67025360de2c3b48dd ""
-  "test.tex" 1635447321 3247 55684d0b4c1b9a67025360de2c3b48dd ""
+  "c:/Users/ander/Desktop/AprendiendoLatex/1.Fundamentos/test.tex" 1635447474 3247 55684d0b4c1b9a67025360de2c3b48dd ""
+  "test.tex" 1635447474 3247 55684d0b4c1b9a67025360de2c3b48dd ""
   (generated)
-  "build/test.aux"
   "build/test.log"
+  "build/test.aux"
   "build/test.pdf"
